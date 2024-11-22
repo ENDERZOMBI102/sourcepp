@@ -1,0 +1,824 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="generator" content="Doxygen 1.9.6"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="SourcePP" />
+    <!--<meta property="og:image" content="" />-->
+    <meta property="og:description" content="Several modern C++20 libraries for sanely parsing Valve&#39;s formats." />
+    <meta property="og:url" content="https://github.com/craftablescience/sourcepp" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <!--<meta name="twitter:image:src" content="" />-->
+    <meta name="twitter:title" content="SourcePP" />
+    <meta name="twitter:description" content="Several modern C++20 libraries for sanely parsing Valve&#39;s formats." />
+    <!-- END twitter metadata -->
+    <title>SourcePP: vtfpp::ImageFormatDetails Namespace Reference</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/x-icon" href="logo.ico"/>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <!--<script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>-->
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-tabs.js"></script>
+    <script type="text/javascript" src="../../toggle-alternative-theme.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeFragmentCopyButton.init()
+        // DoxygenAwesomeDarkModeToggle.init()
+        DoxygenAwesomeParagraphLink.init()
+        DoxygenAwesomeInteractiveToc.init()
+        DoxygenAwesomeTabs.init()
+    </script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="dark-mode">
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/craftablescience/sourcepp" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="72" height="72" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr style="height: 56px;">
+                <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+                <td id="projectalign" style="padding-left: 0.5em;">
+                    <div id="projectname">SourcePP
+                    </div>
+                    <div id="projectbrief">Several modern C++20 libraries for sanely parsing Valve&#39;s formats.</div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/d69/namespacevtfpp_1_1ImageFormatDetails.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">vtfpp::ImageFormatDetails Namespace Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aae8552792bf4ad0d4bc182cc34eba04a"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#aae8552792bf4ad0d4bc182cc34eba04a">red</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:aae8552792bf4ad0d4bc182cc34eba04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c40f659044beb0e3c43568423a25dd"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a99c40f659044beb0e3c43568423a25dd">decompressedRed</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a99c40f659044beb0e3c43568423a25dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dee38efbf446a2847bfef142dcded1b"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a2dee38efbf446a2847bfef142dcded1b">green</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a2dee38efbf446a2847bfef142dcded1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5479b1e7fdbd64a1aae6af0a05f91d"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a0e5479b1e7fdbd64a1aae6af0a05f91d">decompressedGreen</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a0e5479b1e7fdbd64a1aae6af0a05f91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdde59368c730fcecf3d3c15028f75b0"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#afdde59368c730fcecf3d3c15028f75b0">blue</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:afdde59368c730fcecf3d3c15028f75b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c11bce4477d5ba879b5a1d33e1cfa3b"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a3c11bce4477d5ba879b5a1d33e1cfa3b">decompressedBlue</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a3c11bce4477d5ba879b5a1d33e1cfa3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1758f1115310feea3dbc7c1738c994a9"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a1758f1115310feea3dbc7c1738c994a9">alpha</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a1758f1115310feea3dbc7c1738c994a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3114201ce329a024b6f05780ed8a88"><td class="memItemLeft" align="right" valign="top">constexpr int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a9d3114201ce329a024b6f05780ed8a88">decompressedAlpha</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a9d3114201ce329a024b6f05780ed8a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc53a7285be1b23a4cc06d28cee7f9e2"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#acc53a7285be1b23a4cc06d28cee7f9e2">bpp</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:acc53a7285be1b23a4cc06d28cee7f9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4503d121954f7fc2afce661d376108de"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a4503d121954f7fc2afce661d376108de">containerFormat</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a4503d121954f7fc2afce661d376108de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2abec7b9aa23378e8d4f975269697270"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a2abec7b9aa23378e8d4f975269697270">large</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a2abec7b9aa23378e8d4f975269697270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ed5235dfaaa0f79a0315e64b26e80a"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#ac7ed5235dfaaa0f79a0315e64b26e80a">decimal</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:ac7ed5235dfaaa0f79a0315e64b26e80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d0f44d430092e96d3c955f03fcf526"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#af6d0f44d430092e96d3c955f03fcf526">compressed</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:af6d0f44d430092e96d3c955f03fcf526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78ae08639944704fc3005980477e7e56"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a78ae08639944704fc3005980477e7e56">transparent</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:a78ae08639944704fc3005980477e7e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af165209ed03701f0a935efcd5f3cd9fd"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#af165209ed03701f0a935efcd5f3cd9fd">opaque</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format)</td></tr>
+<tr class="separator:af165209ed03701f0a935efcd5f3cd9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a708dc57f5c69e5ed309f780548df41b6"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#a708dc57f5c69e5ed309f780548df41b6">getDataLength</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format, uint16_t width, uint16_t height, uint16_t sliceCount=1)</td></tr>
+<tr class="separator:a708dc57f5c69e5ed309f780548df41b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43c99ecb4fb3b6970bc87890d98c8ad"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#ac43c99ecb4fb3b6970bc87890d98c8ad">getDataLength</a> (<a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format, uint8_t mipCount, uint16_t frameCount, uint8_t faceCount, uint16_t width, uint16_t height, uint16_t sliceCount=1)</td></tr>
+<tr class="separator:ac43c99ecb4fb3b6970bc87890d98c8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00fc65d120a4ed1710f96e3965aaff1"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html#aa00fc65d120a4ed1710f96e3965aaff1">getDataPosition</a> (uint32_t &amp;offset, uint32_t &amp;length, <a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> format, uint8_t mip, uint8_t mipCount, uint16_t frame, uint16_t frameCount, uint8_t face, uint8_t faceCount, uint16_t width, uint16_t height, uint16_t slice=0, uint16_t sliceCount=1)</td></tr>
+<tr class="separator:aa00fc65d120a4ed1710f96e3965aaff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1758f1115310feea3dbc7c1738c994a9" name="a1758f1115310feea3dbc7c1738c994a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1758f1115310feea3dbc7c1738c994a9">&#9670;&#160;</a></span>alpha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::alpha </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00287">287</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="afdde59368c730fcecf3d3c15028f75b0" name="afdde59368c730fcecf3d3c15028f75b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdde59368c730fcecf3d3c15028f75b0">&#9670;&#160;</a></span>blue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::blue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00210">210</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="acc53a7285be1b23a4cc06d28cee7f9e2" name="acc53a7285be1b23a4cc06d28cee7f9e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc53a7285be1b23a4cc06d28cee7f9e2">&#9670;&#160;</a></span>bpp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t vtfpp::ImageFormatDetails::bpp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00366">366</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="af6d0f44d430092e96d3c955f03fcf526" name="af6d0f44d430092e96d3c955f03fcf526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d0f44d430092e96d3c955f03fcf526">&#9670;&#160;</a></span>compressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool vtfpp::ImageFormatDetails::compressed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00485">485</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a4503d121954f7fc2afce661d376108de" name="a4503d121954f7fc2afce661d376108de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4503d121954f7fc2afce661d376108de">&#9670;&#160;</a></span>containerFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a> vtfpp::ImageFormatDetails::containerFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00424">424</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="ac7ed5235dfaaa0f79a0315e64b26e80a" name="ac7ed5235dfaaa0f79a0315e64b26e80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ed5235dfaaa0f79a0315e64b26e80a">&#9670;&#160;</a></span>decimal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool vtfpp::ImageFormatDetails::decimal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00481">481</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a9d3114201ce329a024b6f05780ed8a88" name="a9d3114201ce329a024b6f05780ed8a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3114201ce329a024b6f05780ed8a88">&#9670;&#160;</a></span>decompressedAlpha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::decompressedAlpha </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00344">344</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a3c11bce4477d5ba879b5a1d33e1cfa3b" name="a3c11bce4477d5ba879b5a1d33e1cfa3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c11bce4477d5ba879b5a1d33e1cfa3b">&#9670;&#160;</a></span>decompressedBlue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::decompressedBlue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00267">267</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a0e5479b1e7fdbd64a1aae6af0a05f91d" name="a0e5479b1e7fdbd64a1aae6af0a05f91d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5479b1e7fdbd64a1aae6af0a05f91d">&#9670;&#160;</a></span>decompressedGreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::decompressedGreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00190">190</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a99c40f659044beb0e3c43568423a25dd" name="a99c40f659044beb0e3c43568423a25dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c40f659044beb0e3c43568423a25dd">&#9670;&#160;</a></span>decompressedRed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::decompressedRed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00112">112</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a708dc57f5c69e5ed309f780548df41b6" name="a708dc57f5c69e5ed309f780548df41b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a708dc57f5c69e5ed309f780548df41b6">&#9670;&#160;</a></span>getDataLength() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t vtfpp::ImageFormatDetails::getDataLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>sliceCount</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00570">570</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="ac43c99ecb4fb3b6970bc87890d98c8ad" name="ac43c99ecb4fb3b6970bc87890d98c8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac43c99ecb4fb3b6970bc87890d98c8ad">&#9670;&#160;</a></span>getDataLength() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t vtfpp::ImageFormatDetails::getDataLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mipCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>frameCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>faceCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>sliceCount</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00588">588</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="aa00fc65d120a4ed1710f96e3965aaff1" name="aa00fc65d120a4ed1710f96e3965aaff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa00fc65d120a4ed1710f96e3965aaff1">&#9670;&#160;</a></span>getDataPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool vtfpp::ImageFormatDetails::getDataPosition </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mipCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>frameCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>faceCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>slice</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>sliceCount</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00596">596</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a2dee38efbf446a2847bfef142dcded1b" name="a2dee38efbf446a2847bfef142dcded1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dee38efbf446a2847bfef142dcded1b">&#9670;&#160;</a></span>green()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::green </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00132">132</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a2abec7b9aa23378e8d4f975269697270" name="a2abec7b9aa23378e8d4f975269697270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2abec7b9aa23378e8d4f975269697270">&#9670;&#160;</a></span>large()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool vtfpp::ImageFormatDetails::large </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00477">477</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="af165209ed03701f0a935efcd5f3cd9fd" name="af165209ed03701f0a935efcd5f3cd9fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af165209ed03701f0a935efcd5f3cd9fd">&#9670;&#160;</a></span>opaque()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool vtfpp::ImageFormatDetails::opaque </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00523">523</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="aae8552792bf4ad0d4bc182cc34eba04a" name="aae8552792bf4ad0d4bc182cc34eba04a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae8552792bf4ad0d4bc182cc34eba04a">&#9670;&#160;</a></span>red()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int8_t vtfpp::ImageFormatDetails::red </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00055">55</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+<a id="a78ae08639944704fc3005980477e7e56" name="a78ae08639944704fc3005980477e7e56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78ae08639944704fc3005980477e7e56">&#9670;&#160;</a></span>transparent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool vtfpp::ImageFormatDetails::transparent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d90/namespacevtfpp.html#aec3345feb8c8d1832efd60bd78ba336c">ImageFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html#l00489">489</a> of file <a class="el" href="../../d1/d2d/ImageFormats_8h_source.html">ImageFormats.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../de/d90/namespacevtfpp.html">vtfpp</a></li><li class="navelem"><a class="el" href="../../db/d69/namespacevtfpp_1_1ImageFormatDetails.html">ImageFormatDetails</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

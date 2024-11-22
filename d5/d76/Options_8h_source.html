@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="generator" content="Doxygen 1.9.6"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="SourcePP" />
+    <!--<meta property="og:image" content="" />-->
+    <meta property="og:description" content="Several modern C++20 libraries for sanely parsing Valve&#39;s formats." />
+    <meta property="og:url" content="https://github.com/craftablescience/sourcepp" />
+    <!-- END opengraph metadata -->
+    <!-- BEGIN twitter metadata -->
+    <!--<meta name="twitter:image:src" content="" />-->
+    <meta name="twitter:title" content="SourcePP" />
+    <meta name="twitter:description" content="Several modern C++20 libraries for sanely parsing Valve&#39;s formats." />
+    <!-- END twitter metadata -->
+    <title>SourcePP: include/vpkpp/Options.h Source File</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/x-icon" href="logo.ico"/>
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <!--<script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>-->
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-tabs.js"></script>
+    <script type="text/javascript" src="../../toggle-alternative-theme.js"></script>
+    <script type="text/javascript">
+        DoxygenAwesomeFragmentCopyButton.init()
+        // DoxygenAwesomeDarkModeToggle.init()
+        DoxygenAwesomeParagraphLink.init()
+        DoxygenAwesomeInteractiveToc.init()
+        DoxygenAwesomeTabs.init()
+    </script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="dark-mode">
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/craftablescience/sourcepp" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="72" height="72" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+    <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr style="height: 56px;">
+                <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+                <td id="projectalign" style="padding-left: 0.5em;">
+                    <div id="projectname">SourcePP
+                    </div>
+                    <div id="projectbrief">Several modern C++20 libraries for sanely parsing Valve&#39;s formats.</div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- end header part -->
+<!-- Generated by Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d5/d76/Options_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Options.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d5/d76/Options_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="../../db/d8a/Math_8h.html">sourcepp/Math.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d5/d29/namespacevpkpp.html">vpkpp</a> {</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182">    7</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182">EntryCompressionType</a> : int16_t {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a9ed9fde06cff703c7420b059dd1bfca9">NO_OVERRIDE</a> = -1,</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="comment">// Matches MZ_COMPRESS_METHOD_&lt;type&gt; defines</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a2c7a9f26cee915ace4dfd40250ac57eb">NO_COMPRESS</a> =  0,</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182af17e827fa227b759dc5c053b334d77cc">DEFLATE</a>     =  8,</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a800edd55a1e18b397e3d5d826f85ce34">BZIP2</a>       = 12,</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182af42190e84ceca474c5c77e4ddad30fb1">LZMA</a>        = 14,</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a8406cc2302e19183037b61249546b234">ZSTD</a>        = 93,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a27db3b98d01e664c17a6620b222c6469">XZ</a>          = 95,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d0/dff/structvpkpp_1_1BakeOptions.html">   19</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../d0/dff/structvpkpp_1_1BakeOptions.html">BakeOptions</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a029a5155177153cc4707d8d58cbfc90d">   21</a></span>    <a class="code hl_enumeration" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182">EntryCompressionType</a> <a class="code hl_variable" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a029a5155177153cc4707d8d58cbfc90d">zip_compressionTypeOverride</a> = <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a9ed9fde06cff703c7420b059dd1bfca9">EntryCompressionType::NO_OVERRIDE</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#af56ee51a8f8197ae2999e950188c90b9">   24</a></span>    int16_t <a class="code hl_variable" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#af56ee51a8f8197ae2999e950188c90b9">zip_compressionStrength</a> = 5;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a2f38ce00e221f0a74f0c5b9d82cad9cc">   27</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a2f38ce00e221f0a74f0c5b9d82cad9cc">gma_writeCRCs</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a5e5adcb078c020b79f15a2ae196e0ea4">   30</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a5e5adcb078c020b79f15a2ae196e0ea4">vpk_generateMD5Entries</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html">   33</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html">EntryOptions</a> {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#ad4fa6d5fd900bc82c807bd0996597507">   35</a></span>    <a class="code hl_enumeration" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182">EntryCompressionType</a> <a class="code hl_variable" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#ad4fa6d5fd900bc82c807bd0996597507">zip_compressionType</a> = <a class="code hl_enumvalue" href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a2c7a9f26cee915ace4dfd40250ac57eb">EntryCompressionType::NO_COMPRESS</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#afe147cd4ba3789b9c10d7b0f9448f620">   38</a></span>    int16_t <a class="code hl_variable" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#afe147cd4ba3789b9c10d7b0f9448f620">zip_compressionStrength</a> = 5;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#aef95a3fcfa8a12315bd3adf95f2bb8ea">   41</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#aef95a3fcfa8a12315bd3adf95f2bb8ea">vpk_saveToDirectory</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#af600f1840b79dc26450bf2261232c5d8">   44</a></span>    uint32_t <a class="code hl_variable" href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#af600f1840b79dc26450bf2261232c5d8">vpk_preloadBytes</a> = 0;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>} <span class="comment">// namespace vpkpp</span></div>
+<div class="ttc" id="aMath_8h_html"><div class="ttname"><a href="../../db/d8a/Math_8h.html">Math.h</a></div></div>
+<div class="ttc" id="anamespacevpkpp_html"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html">vpkpp</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/Attribute_8h_source.html#l00005">Attribute.h:5</a></div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182">vpkpp::EntryCompressionType</a></div><div class="ttdeci">EntryCompressionType</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00007">Options.h:7</a></div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182a27db3b98d01e664c17a6620b222c6469"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a27db3b98d01e664c17a6620b222c6469">vpkpp::EntryCompressionType::XZ</a></div><div class="ttdeci">@ XZ</div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182a2c7a9f26cee915ace4dfd40250ac57eb"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a2c7a9f26cee915ace4dfd40250ac57eb">vpkpp::EntryCompressionType::NO_COMPRESS</a></div><div class="ttdeci">@ NO_COMPRESS</div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182a800edd55a1e18b397e3d5d826f85ce34"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a800edd55a1e18b397e3d5d826f85ce34">vpkpp::EntryCompressionType::BZIP2</a></div><div class="ttdeci">@ BZIP2</div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182a8406cc2302e19183037b61249546b234"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a8406cc2302e19183037b61249546b234">vpkpp::EntryCompressionType::ZSTD</a></div><div class="ttdeci">@ ZSTD</div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182a9ed9fde06cff703c7420b059dd1bfca9"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182a9ed9fde06cff703c7420b059dd1bfca9">vpkpp::EntryCompressionType::NO_OVERRIDE</a></div><div class="ttdeci">@ NO_OVERRIDE</div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182af17e827fa227b759dc5c053b334d77cc"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182af17e827fa227b759dc5c053b334d77cc">vpkpp::EntryCompressionType::DEFLATE</a></div><div class="ttdeci">@ DEFLATE</div></div>
+<div class="ttc" id="anamespacevpkpp_html_ae034a158f88b27daeb947b167a806182af42190e84ceca474c5c77e4ddad30fb1"><div class="ttname"><a href="../../d5/d29/namespacevpkpp.html#ae034a158f88b27daeb947b167a806182af42190e84ceca474c5c77e4ddad30fb1">vpkpp::EntryCompressionType::LZMA</a></div><div class="ttdeci">@ LZMA</div></div>
+<div class="ttc" id="astructvpkpp_1_1BakeOptions_html"><div class="ttname"><a href="../../d0/dff/structvpkpp_1_1BakeOptions.html">vpkpp::BakeOptions</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00019">Options.h:19</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1BakeOptions_html_a029a5155177153cc4707d8d58cbfc90d"><div class="ttname"><a href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a029a5155177153cc4707d8d58cbfc90d">vpkpp::BakeOptions::zip_compressionTypeOverride</a></div><div class="ttdeci">EntryCompressionType zip_compressionTypeOverride</div><div class="ttdoc">BSP/ZIP - Override compression type of all stored entries.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00021">Options.h:21</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1BakeOptions_html_a2f38ce00e221f0a74f0c5b9d82cad9cc"><div class="ttname"><a href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a2f38ce00e221f0a74f0c5b9d82cad9cc">vpkpp::BakeOptions::gma_writeCRCs</a></div><div class="ttdeci">bool gma_writeCRCs</div><div class="ttdoc">GMA - Write CRCs for files and the overall GMA file when baking.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00027">Options.h:27</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1BakeOptions_html_a5e5adcb078c020b79f15a2ae196e0ea4"><div class="ttname"><a href="../../d0/dff/structvpkpp_1_1BakeOptions.html#a5e5adcb078c020b79f15a2ae196e0ea4">vpkpp::BakeOptions::vpk_generateMD5Entries</a></div><div class="ttdeci">bool vpk_generateMD5Entries</div><div class="ttdoc">VPK - Generate MD5 hashes for each file (VPK v2 only)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00030">Options.h:30</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1BakeOptions_html_af56ee51a8f8197ae2999e950188c90b9"><div class="ttname"><a href="../../d0/dff/structvpkpp_1_1BakeOptions.html#af56ee51a8f8197ae2999e950188c90b9">vpkpp::BakeOptions::zip_compressionStrength</a></div><div class="ttdeci">int16_t zip_compressionStrength</div><div class="ttdoc">BSP/VPK/ZIP - Compression strength.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00024">Options.h:24</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1EntryOptions_html"><div class="ttname"><a href="../../d6/d5b/structvpkpp_1_1EntryOptions.html">vpkpp::EntryOptions</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00033">Options.h:33</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1EntryOptions_html_ad4fa6d5fd900bc82c807bd0996597507"><div class="ttname"><a href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#ad4fa6d5fd900bc82c807bd0996597507">vpkpp::EntryOptions::zip_compressionType</a></div><div class="ttdeci">EntryCompressionType zip_compressionType</div><div class="ttdoc">BSP/ZIP - The compression format.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00035">Options.h:35</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1EntryOptions_html_aef95a3fcfa8a12315bd3adf95f2bb8ea"><div class="ttname"><a href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#aef95a3fcfa8a12315bd3adf95f2bb8ea">vpkpp::EntryOptions::vpk_saveToDirectory</a></div><div class="ttdeci">bool vpk_saveToDirectory</div><div class="ttdoc">VPK - Save this entry to the directory VPK.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00041">Options.h:41</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1EntryOptions_html_af600f1840b79dc26450bf2261232c5d8"><div class="ttname"><a href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#af600f1840b79dc26450bf2261232c5d8">vpkpp::EntryOptions::vpk_preloadBytes</a></div><div class="ttdeci">uint32_t vpk_preloadBytes</div><div class="ttdoc">VPK - The amount in bytes of the file to preload. Maximum is controlled by VPK_MAX_PRELOAD_BYTES (for...</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00044">Options.h:44</a></div></div>
+<div class="ttc" id="astructvpkpp_1_1EntryOptions_html_afe147cd4ba3789b9c10d7b0f9448f620"><div class="ttname"><a href="../../d6/d5b/structvpkpp_1_1EntryOptions.html#afe147cd4ba3789b9c10d7b0f9448f620">vpkpp::EntryOptions::zip_compressionStrength</a></div><div class="ttdeci">int16_t zip_compressionStrength</div><div class="ttdoc">BSP/ZIP - The compression strength.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d76/Options_8h_source.html#l00038">Options.h:38</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_f237bf7741f5f61f38bf876ae1776f7c.html">vpkpp</a></li><li class="navelem"><a class="el" href="../../d5/d76/Options_8h.html">Options.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>
