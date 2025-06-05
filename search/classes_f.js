@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['time_0',['Time',['../d5/d19/structdmxpp_1_1Value_1_1Time.html',1,'dmxpp::Value']]]
+  ['quatcompressed48_0',['QuatCompressed48',['../d7/d84/structsourcepp_1_1math_1_1QuatCompressed48.html',1,'sourcepp::math']]],
+  ['quatcompressed64_1',['QuatCompressed64',['../d4/daf/structsourcepp_1_1math_1_1QuatCompressed64.html',1,'sourcepp::math']]]
 ];

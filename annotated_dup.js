@@ -5,13 +5,18 @@ var annotated_dup =
       [ "BSPBrushModel_v0", "d3/db0/structbsppp_1_1BSPBrushModel__v0.html", "d3/db0/structbsppp_1_1BSPBrushModel__v0" ],
       [ "BSPEdge_v0", "d8/d16/structbsppp_1_1BSPEdge__v0.html", "d8/d16/structbsppp_1_1BSPEdge__v0" ],
       [ "BSPEdge_v1", "dd/d95/structbsppp_1_1BSPEdge__v1.html", "dd/d95/structbsppp_1_1BSPEdge__v1" ],
+      [ "BSPEntityKeyValues", "d7/db2/classbsppp_1_1BSPEntityKeyValues.html", "d7/db2/classbsppp_1_1BSPEntityKeyValues" ],
       [ "BSPFace_v1", "d6/d98/structbsppp_1_1BSPFace__v1.html", "d6/d98/structbsppp_1_1BSPFace__v1" ],
       [ "BSPFace_v2", "d8/d85/structbsppp_1_1BSPFace__v2.html", "d8/d85/structbsppp_1_1BSPFace__v2" ],
+      [ "BSPGameLump", "d6/d07/structbsppp_1_1BSPGameLump.html", "d6/d07/structbsppp_1_1BSPGameLump" ],
+      [ "BSPNode_v0", "d8/d37/structbsppp_1_1BSPNode__v0.html", "d8/d37/structbsppp_1_1BSPNode__v0" ],
+      [ "BSPNode_v1", "d7/dd7/structbsppp_1_1BSPNode__v1.html", "d7/dd7/structbsppp_1_1BSPNode__v1" ],
       [ "BSPPlane_v0", "d8/de4/structbsppp_1_1BSPPlane__v0.html", "d8/de4/structbsppp_1_1BSPPlane__v0" ],
       [ "BSPSurfEdge_v0", "df/d2e/structbsppp_1_1BSPSurfEdge__v0.html", "df/d2e/structbsppp_1_1BSPSurfEdge__v0" ],
       [ "BSPTextureData_v0", "d1/d93/structbsppp_1_1BSPTextureData__v0.html", "d1/d93/structbsppp_1_1BSPTextureData__v0" ],
       [ "BSPTextureInfo_v0", "d3/d0f/structbsppp_1_1BSPTextureInfo__v0.html", "d3/d0f/structbsppp_1_1BSPTextureInfo__v0" ],
-      [ "BSPVertex_v0", "d2/d27/structbsppp_1_1BSPVertex__v0.html", "d2/d27/structbsppp_1_1BSPVertex__v0" ]
+      [ "BSPVertex_v0", "d2/d27/structbsppp_1_1BSPVertex__v0.html", "d2/d27/structbsppp_1_1BSPVertex__v0" ],
+      [ "PakLump", "d4/daf/classbsppp_1_1PakLump.html", "d4/daf/classbsppp_1_1PakLump" ]
     ] ],
     [ "dmxpp", "d9/db0/namespacedmxpp.html", [
       [ "Value", "d7/d45/namespacedmxpp_1_1Value.html", [
@@ -23,6 +28,10 @@ var annotated_dup =
       [ "DMX", "d1/d5f/classdmxpp_1_1DMX.html", "d1/d5f/classdmxpp_1_1DMX" ],
       [ "DMXAttribute", "dc/d56/structdmxpp_1_1DMXAttribute.html", "dc/d56/structdmxpp_1_1DMXAttribute" ],
       [ "DMXElement", "d4/d6d/structdmxpp_1_1DMXElement.html", "d4/d6d/structdmxpp_1_1DMXElement" ]
+    ] ],
+    [ "fspp", "d9/d5a/namespacefspp.html", [
+      [ "FileSystem", "d7/dca/classfspp_1_1FileSystem.html", "d7/dca/classfspp_1_1FileSystem" ],
+      [ "FileSystemOptions", "d8/d61/structfspp_1_1FileSystemOptions.html", "d8/d61/structfspp_1_1FileSystemOptions" ]
     ] ],
     [ "gamepp", "de/d04/namespacegamepp.html", [
       [ "GameInstance", "d2/dc0/classgamepp_1_1GameInstance.html", "d2/dc0/classgamepp_1_1GameInstance" ]
@@ -66,6 +75,10 @@ var annotated_dup =
       [ "Movement", "d1/dbd/structmdlpp_1_1Movement.html", "d1/dbd/structmdlpp_1_1Movement" ],
       [ "StudioModel", "db/dee/structmdlpp_1_1StudioModel.html", "db/dee/structmdlpp_1_1StudioModel" ]
     ] ],
+    [ "sndpp", "d3/db4/namespacesndpp.html", [
+      [ "WAV", "df/dc5/classsndpp_1_1WAV.html", "df/dc5/classsndpp_1_1WAV" ],
+      [ "XWV", "d9/d12/classsndpp_1_1XWV.html", "d9/d12/classsndpp_1_1XWV" ]
+    ] ],
     [ "sourcepp", "d2/deb/namespacesourcepp.html", [
       [ "detail", "dc/daf/namespacesourcepp_1_1detail.html", [
         [ "member_type_helper", "d9/de7/structsourcepp_1_1detail_1_1member__type__helper.html", null ],
@@ -79,7 +92,7 @@ var annotated_dup =
       ] ],
       [ "parser", "d5/d3c/namespacesourcepp_1_1parser.html", [
         [ "text", "d7/d75/namespacesourcepp_1_1parser_1_1text.html", [
-          [ "syntax_error", "d7/d77/classsourcepp_1_1parser_1_1text_1_1syntax__error.html", "d7/d77/classsourcepp_1_1parser_1_1text_1_1syntax__error" ]
+          [ "syntax_error", "d7/d77/classsourcepp_1_1parser_1_1text_1_1syntax__error.html", null ]
         ] ]
       ] ],
       [ "member_type", "d1/dc0/structsourcepp_1_1member__type.html", null ]
@@ -94,20 +107,25 @@ var annotated_dup =
     ] ],
     [ "vpkpp", "d5/d29/namespacevpkpp.html", [
       [ "BakeOptions", "d0/dff/structvpkpp_1_1BakeOptions.html", "d0/dff/structvpkpp_1_1BakeOptions" ],
-      [ "BSP", "d2/da8/classvpkpp_1_1BSP.html", "d2/da8/classvpkpp_1_1BSP" ],
       [ "Entry", "d9/d6b/classvpkpp_1_1Entry.html", "d9/d6b/classvpkpp_1_1Entry" ],
       [ "EntryOptions", "d6/d5b/structvpkpp_1_1EntryOptions.html", "d6/d5b/structvpkpp_1_1EntryOptions" ],
       [ "EXAMPLE", "d2/d8b/classvpkpp_1_1EXAMPLE.html", "d2/d8b/classvpkpp_1_1EXAMPLE" ],
       [ "FPX", "da/d42/classvpkpp_1_1FPX.html", "da/d42/classvpkpp_1_1FPX" ],
       [ "GCF", "d1/d01/classvpkpp_1_1GCF.html", "d1/d01/classvpkpp_1_1GCF" ],
       [ "GMA", "d6/d2c/classvpkpp_1_1GMA.html", "d6/d2c/classvpkpp_1_1GMA" ],
+      [ "HOG", "dd/d46/classvpkpp_1_1HOG.html", "dd/d46/classvpkpp_1_1HOG" ],
+      [ "OL", "d4/d47/classvpkpp_1_1OL.html", "d4/d47/classvpkpp_1_1OL" ],
+      [ "OO7", "d3/dec/classvpkpp_1_1OO7.html", "d3/dec/classvpkpp_1_1OO7" ],
+      [ "ORE", "d8/d00/classvpkpp_1_1ORE.html", "d8/d00/classvpkpp_1_1ORE" ],
       [ "PackFile", "d2/dd2/classvpkpp_1_1PackFile.html", "d2/dd2/classvpkpp_1_1PackFile" ],
       [ "PackFileReadOnly", "de/df6/classvpkpp_1_1PackFileReadOnly.html", "de/df6/classvpkpp_1_1PackFileReadOnly" ],
       [ "PAK", "d9/daf/classvpkpp_1_1PAK.html", "d9/daf/classvpkpp_1_1PAK" ],
       [ "PCK", "d5/db5/classvpkpp_1_1PCK.html", "d5/db5/classvpkpp_1_1PCK" ],
       [ "VPK", "d5/d8b/classvpkpp_1_1VPK.html", "d5/d8b/classvpkpp_1_1VPK" ],
       [ "VPK_VTMB", "d4/ddb/classvpkpp_1_1VPK__VTMB.html", "d4/ddb/classvpkpp_1_1VPK__VTMB" ],
+      [ "VPP", "d6/d17/classvpkpp_1_1VPP.html", "d6/d17/classvpkpp_1_1VPP" ],
       [ "WAD3", "d1/da5/classvpkpp_1_1WAD3.html", "d1/da5/classvpkpp_1_1WAD3" ],
+      [ "XZP", "d8/ddc/classvpkpp_1_1XZP.html", "d8/ddc/classvpkpp_1_1XZP" ],
       [ "ZIP", "da/de7/classvpkpp_1_1ZIP.html", "da/de7/classvpkpp_1_1ZIP" ]
     ] ],
     [ "vtfpp", "de/d90/namespacevtfpp.html", [
@@ -117,7 +135,6 @@ var annotated_dup =
         [ "ARGB8888", "d6/dd0/structvtfpp_1_1ImagePixel_1_1ARGB8888.html", "d6/dd0/structvtfpp_1_1ImagePixel_1_1ARGB8888" ],
         [ "BGR565", "d9/d48/structvtfpp_1_1ImagePixel_1_1BGR565.html", "d9/d48/structvtfpp_1_1ImagePixel_1_1BGR565" ],
         [ "BGR888", "d8/d63/structvtfpp_1_1ImagePixel_1_1BGR888.html", "d8/d63/structvtfpp_1_1ImagePixel_1_1BGR888" ],
-        [ "BGR888_BLUESCREEN", "d2/dd2/structvtfpp_1_1ImagePixel_1_1BGR888__BLUESCREEN.html", "d2/dd2/structvtfpp_1_1ImagePixel_1_1BGR888__BLUESCREEN" ],
         [ "BGRA1010102", "de/d7c/structvtfpp_1_1ImagePixel_1_1BGRA1010102.html", "de/d7c/structvtfpp_1_1ImagePixel_1_1BGRA1010102" ],
         [ "BGRA4444", "d0/d1c/structvtfpp_1_1ImagePixel_1_1BGRA4444.html", "d0/d1c/structvtfpp_1_1ImagePixel_1_1BGRA4444" ],
         [ "BGRA5551", "dd/d5e/structvtfpp_1_1ImagePixel_1_1BGRA5551.html", "dd/d5e/structvtfpp_1_1ImagePixel_1_1BGRA5551" ],
@@ -135,7 +152,6 @@ var annotated_dup =
         [ "RGB323232F", "d0/d5b/structvtfpp_1_1ImagePixel_1_1RGB323232F.html", "d0/d5b/structvtfpp_1_1ImagePixel_1_1RGB323232F" ],
         [ "RGB565", "d0/d92/structvtfpp_1_1ImagePixel_1_1RGB565.html", "d0/d92/structvtfpp_1_1ImagePixel_1_1RGB565" ],
         [ "RGB888", "d0/d24/structvtfpp_1_1ImagePixel_1_1RGB888.html", "d0/d24/structvtfpp_1_1ImagePixel_1_1RGB888" ],
-        [ "RGB888_BLUESCREEN", "d1/d7e/structvtfpp_1_1ImagePixel_1_1RGB888__BLUESCREEN.html", "d1/d7e/structvtfpp_1_1ImagePixel_1_1RGB888__BLUESCREEN" ],
         [ "RGBA1010102", "d4/d5b/structvtfpp_1_1ImagePixel_1_1RGBA1010102.html", "d4/d5b/structvtfpp_1_1ImagePixel_1_1RGBA1010102" ],
         [ "RGBA16161616", "d9/d32/structvtfpp_1_1ImagePixel_1_1RGBA16161616.html", "d9/d32/structvtfpp_1_1ImagePixel_1_1RGBA16161616" ],
         [ "RGBA16161616F", "d0/de9/structvtfpp_1_1ImagePixel_1_1RGBA16161616F.html", "d0/de9/structvtfpp_1_1ImagePixel_1_1RGBA16161616F" ],
@@ -148,6 +164,8 @@ var annotated_dup =
       ] ],
       [ "PPL", "df/d32/classvtfpp_1_1PPL.html", "df/d32/classvtfpp_1_1PPL" ],
       [ "Resource", "d3/d80/structvtfpp_1_1Resource.html", "d3/d80/structvtfpp_1_1Resource" ],
+      [ "SHT", "db/dde/classvtfpp_1_1SHT.html", "db/dde/classvtfpp_1_1SHT" ],
+      [ "TTX", "df/d47/classvtfpp_1_1TTX.html", "df/d47/classvtfpp_1_1TTX" ],
       [ "VTF", "d8/df2/classvtfpp_1_1VTF.html", "d8/df2/classvtfpp_1_1VTF" ]
     ] ]
 ];

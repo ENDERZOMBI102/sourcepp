@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['packfiletype_0',['PackFileType',['../d5/d29/namespacevpkpp.html#aa85a67fde1caa75abb46425eaa54d926',1,'vpkpp']]]
+  ['platform_0',['Platform',['../d8/df2/classvtfpp_1_1VTF.html#a04f1c1affcbb1f880292bec6cae95a15',1,'vtfpp::VTF']]]
 ];

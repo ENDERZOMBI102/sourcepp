@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['z_0',['z',['../d7/d84/structsourcepp_1_1math_1_1QuatCompressed48.html#af8f1d77049009b92ee307dfd6be67b68',1,'sourcepp::math::QuatCompressed48::z()'],['../d4/daf/structsourcepp_1_1math_1_1QuatCompressed64.html#aa62227f35533995483f6176e23d58577',1,'sourcepp::math::QuatCompressed64::z()']]],
-  ['zip_5fcompressionstrength_1',['zip_compressionStrength',['../d0/dff/structvpkpp_1_1BakeOptions.html#af56ee51a8f8197ae2999e950188c90b9',1,'vpkpp::BakeOptions::zip_compressionStrength()'],['../d6/d5b/structvpkpp_1_1EntryOptions.html#afe147cd4ba3789b9c10d7b0f9448f620',1,'vpkpp::EntryOptions::zip_compressionStrength()']]],
-  ['zip_5fcompressiontype_2',['zip_compressionType',['../d6/d5b/structvpkpp_1_1EntryOptions.html#ad4fa6d5fd900bc82c807bd0996597507',1,'vpkpp::EntryOptions']]],
-  ['zip_5fcompressiontypeoverride_3',['zip_compressionTypeOverride',['../d0/dff/structvpkpp_1_1BakeOptions.html#a029a5155177153cc4707d8d58cbfc90d',1,'vpkpp::BakeOptions']]],
-  ['zip_5fextension_4',['ZIP_EXTENSION',['../d5/d29/namespacevpkpp.html#a50c90d61c3ce05d48a2e0e5fb3cbab21',1,'vpkpp']]],
-  ['ziphandle_5',['zipHandle',['../da/de7/classvpkpp_1_1ZIP.html#aaf2e2d7b02453b445807c9b5112d0ffe',1,'vpkpp::ZIP']]],
-  ['zipopen_6',['zipOpen',['../da/de7/classvpkpp_1_1ZIP.html#a82d7f3bf2c41e484ed805ffc4039bffd',1,'vpkpp::ZIP']]],
-  ['zombie_5fpanic_5fsource_7',['ZOMBIE_PANIC_SOURCE',['../d0/d17/namespacevcryptpp_1_1VICE_1_1KnownCodes.html#a8c1ec4b665bd3f644ff659546afc8e35',1,'vcryptpp::VICE::KnownCodes']]]
+  ['x_0',['x',['../d7/d84/structsourcepp_1_1math_1_1QuatCompressed48.html#a551dd6bb70b5c413f9456e74034f23a8',1,'sourcepp::math::QuatCompressed48::x()'],['../d4/daf/structsourcepp_1_1math_1_1QuatCompressed64.html#aaea35c5709bee90f5df0bb78e5b06a80',1,'sourcepp::math::QuatCompressed64::x()'],['../d0/d15/structvtfpp_1_1ImagePixel_1_1BGRX8888.html#a293badf850229fbf6fc93df29a6afc75',1,'vtfpp::ImagePixel::BGRX8888::x()'],['../d9/d8a/structvtfpp_1_1ImagePixel_1_1BGRX5551.html#a2749c1eee004b2b6f95b496ecb78b665',1,'vtfpp::ImagePixel::BGRX5551::x()'],['../d3/df9/structvtfpp_1_1ImagePixel_1_1UVLX8888.html#ac9763861753717814e74e42f7be8178d',1,'vtfpp::ImagePixel::UVLX8888::x()'],['../d0/dc9/structvtfpp_1_1ImagePixel_1_1RGBX8888.html#a5af01d55152e03c1fe1e2790659ef7ba',1,'vtfpp::ImagePixel::RGBX8888::x()']]],
+  ['x1_1',['x1',['../db/d04/structvtfpp_1_1SHT_1_1Sequence_1_1Frame_1_1Bounds.html#a20726f2ba0d1bb7db0371532cf0fd026',1,'vtfpp::SHT::Sequence::Frame::Bounds']]],
+  ['x2_2',['x2',['../db/d04/structvtfpp_1_1SHT_1_1Sequence_1_1Frame_1_1Bounds.html#afa3b54e125558100e1f4f45c6c9d08aa',1,'vtfpp::SHT::Sequence::Frame::Bounds']]],
+  ['xwv_5fsignature_3',['XWV_SIGNATURE',['../d3/db4/namespacesndpp.html#a3cf3201e8541be5991b540aed321aaa1',1,'sndpp']]],
+  ['xzp_5fextension_4',['XZP_EXTENSION',['../d5/d29/namespacevpkpp.html#a1bc6f981fa9cf0abeccba163a58674e3',1,'vpkpp']]],
+  ['xzp_5ffooter_5fsignature_5',['XZP_FOOTER_SIGNATURE',['../d5/d29/namespacevpkpp.html#a74750d2fbea3bb4a9151b34cf4f3c497',1,'vpkpp']]],
+  ['xzp_5fheader_5fsignature_6',['XZP_HEADER_SIGNATURE',['../d5/d29/namespacevpkpp.html#a74646767af365951ba682e2fd4becf9f',1,'vpkpp']]]
 ];

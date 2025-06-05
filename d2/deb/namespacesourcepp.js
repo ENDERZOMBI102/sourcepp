@@ -1,16 +1,19 @@
 var namespacesourcepp =
 [
+    [ "compression", "d2/d50/namespacesourcepp_1_1compression.html", [
+      [ "compressValveLZMA", "d2/d50/namespacesourcepp_1_1compression.html#a109d3a599428dd45c73232f076d0c7f9", null ],
+      [ "decompressValveLZMA", "d2/d50/namespacesourcepp_1_1compression.html#acbd3e3f47a01b6d6b3d1189d771b34d2", null ],
+      [ "VALVE_LZMA_SIGNATURE", "d2/d50/namespacesourcepp_1_1compression.html#a243ca9a85ac91639079447e730761600", null ]
+    ] ],
     [ "crypto", "db/d83/namespacesourcepp_1_1crypto.html", [
-      [ "computeAdler32", "db/d83/namespacesourcepp_1_1crypto.html#ae28cdf50997cbb94d3bda79efc6b2260", null ],
-      [ "computeAdler32", "db/d83/namespacesourcepp_1_1crypto.html#a44a81bc09c814c0501ecff4bd3816564", null ],
-      [ "computeCRC32", "db/d83/namespacesourcepp_1_1crypto.html#a6818bbd0d47838fd9e94e2d9a942f06a", null ],
-      [ "computeCRC32", "db/d83/namespacesourcepp_1_1crypto.html#ab3d4dfec5a13c777b9243a1acbfd3b43", null ],
-      [ "computeMD5", "db/d83/namespacesourcepp_1_1crypto.html#a788b3d4c0030bf2311e4da600371c89b", null ],
-      [ "computeMD5", "db/d83/namespacesourcepp_1_1crypto.html#a7edd6b551463bd5f8a4cbe143598bd00", null ],
+      [ "computeAdler32", "db/d83/namespacesourcepp_1_1crypto.html#ad371d07a92e8f37f023237eaf590b3ad", null ],
+      [ "computeCRC32", "db/d83/namespacesourcepp_1_1crypto.html#ae6001c547224efd4b9a34bb0c42d90d3", null ],
+      [ "computeMD5", "db/d83/namespacesourcepp_1_1crypto.html#a1d0000c421916af2446706e8ba62ae27", null ],
       [ "computeSHA256KeyPair", "db/d83/namespacesourcepp_1_1crypto.html#adca36bfd682b13d5f9345ae11cf088b5", null ],
       [ "decodeHexString", "db/d83/namespacesourcepp_1_1crypto.html#af0f8f739fd07fe6acd369b64dd32136f", null ],
-      [ "signDataWithSHA256PrivateKey", "db/d83/namespacesourcepp_1_1crypto.html#ab47c07cf7ad1e5ea163d791f61279fe1", null ],
-      [ "verifySHA256PublicKey", "db/d83/namespacesourcepp_1_1crypto.html#ab6e183f3d207cc9c44ca0247ededd583", null ]
+      [ "encodeHexString", "db/d83/namespacesourcepp_1_1crypto.html#a97d529d4a2f74e8686a13a26f7243e09", null ],
+      [ "signDataWithSHA256PrivateKey", "db/d83/namespacesourcepp_1_1crypto.html#a0a4ed283db62e7c750a5085db1a60ee6", null ],
+      [ "verifySHA256PublicKey", "db/d83/namespacesourcepp_1_1crypto.html#a37b0b95fc83f9ec196d1bbacf24cf811", null ]
     ] ],
     [ "detail", "dc/daf/namespacesourcepp_1_1detail.html", "dc/daf/namespacesourcepp_1_1detail" ],
     [ "fs", "d9/dd6/namespacesourcepp_1_1fs.html", [
@@ -31,6 +34,7 @@ var namespacesourcepp =
       [ "ltrim", "d0/d5a/namespacesourcepp_1_1string.html#a2921eb99eb12a40ad6d74fd6072e1f23", null ],
       [ "ltrim", "d0/d5a/namespacesourcepp_1_1string.html#aeaffd6bef15e1224b7a85e6a80ac5086", null ],
       [ "ltrim", "d0/d5a/namespacesourcepp_1_1string.html#a10e3eb9713ad6cc59351814aa564cc33", null ],
+      [ "matches", "d0/d5a/namespacesourcepp_1_1string.html#aa64841c9eccc61cf36fffaea7170f8ca", null ],
       [ "normalizeSlashes", "d0/d5a/namespacesourcepp_1_1string.html#a4106f9c1c6da69c3d53de30d61a29cf8", null ],
       [ "padNumber", "d0/d5a/namespacesourcepp_1_1string.html#ad0311ff34cfbea8cf15726c2ffe6761e", null ],
       [ "rtrim", "d0/d5a/namespacesourcepp_1_1string.html#ad1fec827a88b6a9fbfc14ac6ec37d78b", null ],

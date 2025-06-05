@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_7ebsp_0',['~BSP',['../d2/da8/classvpkpp_1_1BSP.html#a9140eba20fdfcf05ced488c111041334',1,'vpkpp::BSP']]],
-  ['_7epackfile_1',['~PackFile',['../d2/dd2/classvpkpp_1_1PackFile.html#a21ca5cc0d75c60dfdbb5ca09f902702a',1,'vpkpp::PackFile']]],
-  ['_7ezip_2',['~ZIP',['../da/de7/classvpkpp_1_1ZIP.html#ab689f4ff54fbbdde441e3a44679b729b',1,'vpkpp::ZIP']]]
+  ['zero_0',['zero',['../d6/d21/structsourcepp_1_1math_1_1Vec.html#a7d4059d35446104bb28906b0603d93d6',1,'sourcepp::math::Vec']]],
+  ['zip_1',['ZIP',['../da/de7/classvpkpp_1_1ZIP.html#a1bc1ecd6e1a7b9585fa4f36e92ba45b3',1,'vpkpp::ZIP']]]
 ];

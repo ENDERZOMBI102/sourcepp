@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['vec_0',['Vec',['../d6/d21/structsourcepp_1_1math_1_1Vec.html',1,'sourcepp::math']]],
-  ['vertex_1',['Vertex',['../d3/d83/structmdlpp_1_1BakedModel_1_1Vertex.html',1,'mdlpp::BakedModel::Vertex'],['../d0/d6e/structmdlpp_1_1VTX_1_1Vertex.html',1,'mdlpp::VTX::Vertex'],['../dc/d30/structmdlpp_1_1VVD_1_1Vertex.html',1,'mdlpp::VVD::Vertex']]],
-  ['vpk_2',['VPK',['../d5/d8b/classvpkpp_1_1VPK.html',1,'vpkpp']]],
-  ['vpk_5fvtmb_3',['VPK_VTMB',['../d4/ddb/classvpkpp_1_1VPK__VTMB.html',1,'vpkpp']]],
-  ['vtf_4',['VTF',['../d8/df2/classvtfpp_1_1VTF.html',1,'vtfpp']]],
-  ['vtx_5',['VTX',['../d5/dd3/structmdlpp_1_1VTX_1_1VTX.html',1,'mdlpp::VTX']]],
-  ['vvd_6',['VVD',['../d0/de2/structmdlpp_1_1VVD_1_1VVD.html',1,'mdlpp::VVD']]]
+  ['sampleloop_0',['SampleLoop',['../d7/dcc/structsndpp_1_1WAV_1_1ChunkSMPL_1_1SampleLoop.html',1,'sndpp::WAV::ChunkSMPL']]],
+  ['segment_1',['Segment',['../d9/df5/structsndpp_1_1WAV_1_1ChunkPLST_1_1Segment.html',1,'sndpp::WAV::ChunkPLST']]],
+  ['sequence_2',['Sequence',['../da/d0f/structtoolpp_1_1CmdSeq_1_1Sequence.html',1,'toolpp::CmdSeq::Sequence'],['../d3/d32/structvtfpp_1_1SHT_1_1Sequence.html',1,'vtfpp::SHT::Sequence']]],
+  ['sht_3',['SHT',['../db/dde/classvtfpp_1_1SHT.html',1,'vtfpp']]],
+  ['steam_4',['Steam',['../d9/d81/classsteampp_1_1Steam.html',1,'steampp']]],
+  ['strip_5',['Strip',['../d3/db9/structmdlpp_1_1VTX_1_1Strip.html',1,'mdlpp::VTX']]],
+  ['stripgroup_6',['StripGroup',['../da/d15/structmdlpp_1_1VTX_1_1StripGroup.html',1,'mdlpp::VTX']]],
+  ['studiomodel_7',['StudioModel',['../db/dee/structmdlpp_1_1StudioModel.html',1,'mdlpp']]],
+  ['syntax_5ferror_8',['syntax_error',['../d7/d77/classsourcepp_1_1parser_1_1text_1_1syntax__error.html',1,'sourcepp::parser::text']]]
 ];

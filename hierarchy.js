@@ -4,8 +4,13 @@ var hierarchy =
     [ "bsppp::BSPBrushModel_v0", "d3/db0/structbsppp_1_1BSPBrushModel__v0.html", null ],
     [ "bsppp::BSPEdge_v0", "d8/d16/structbsppp_1_1BSPEdge__v0.html", null ],
     [ "bsppp::BSPEdge_v1", "dd/d95/structbsppp_1_1BSPEdge__v1.html", null ],
+    [ "bsppp::BSPEntityKeyValues", "d7/db2/classbsppp_1_1BSPEntityKeyValues.html", null ],
+    [ "bsppp::BSPEntityKeyValues::Element", "d8/d1b/classbsppp_1_1BSPEntityKeyValues_1_1Element.html", null ],
     [ "bsppp::BSPFace_v1", "d6/d98/structbsppp_1_1BSPFace__v1.html", null ],
     [ "bsppp::BSPFace_v2", "d8/d85/structbsppp_1_1BSPFace__v2.html", null ],
+    [ "bsppp::BSPGameLump", "d6/d07/structbsppp_1_1BSPGameLump.html", null ],
+    [ "bsppp::BSPNode_v0", "d8/d37/structbsppp_1_1BSPNode__v0.html", null ],
+    [ "bsppp::BSPNode_v1", "d7/dd7/structbsppp_1_1BSPNode__v1.html", null ],
     [ "bsppp::BSPPlane_v0", "d8/de4/structbsppp_1_1BSPPlane__v0.html", null ],
     [ "bsppp::BSPSurfEdge_v0", "df/d2e/structbsppp_1_1BSPSurfEdge__v0.html", null ],
     [ "bsppp::BSPTextureData_v0", "d1/d93/structbsppp_1_1BSPTextureData__v0.html", null ],
@@ -18,6 +23,8 @@ var hierarchy =
     [ "dmxpp::Value::Element", "dc/d06/structdmxpp_1_1Value_1_1Element.html", null ],
     [ "dmxpp::Value::Invalid", "da/dee/structdmxpp_1_1Value_1_1Invalid.html", null ],
     [ "dmxpp::Value::Time", "d5/d19/structdmxpp_1_1Value_1_1Time.html", null ],
+    [ "fspp::FileSystem", "d7/dca/classfspp_1_1FileSystem.html", null ],
+    [ "fspp::FileSystemOptions", "d8/d61/structfspp_1_1FileSystemOptions.html", null ],
     [ "gamepp::GameInstance", "d2/dc0/classgamepp_1_1GameInstance.html", null ],
     [ "kvpp::KV1ElementBase< std::string, KV1ElementWritable< std::string > >", "de/d62/classkvpp_1_1KV1ElementBase.html", null ],
     [ "kvpp::KV1ElementBase< std::string_view, KV1ElementReadable >", "de/d62/classkvpp_1_1KV1ElementBase.html", [
@@ -60,6 +67,34 @@ var hierarchy =
     [ "sourcepp::detail::member_type_helper< std::remove_cvref_t< T > >", "d9/de7/structsourcepp_1_1detail_1_1member__type__helper.html", [
       [ "sourcepp::member_type< T >", "d1/dc0/structsourcepp_1_1member__type.html", null ]
     ] ],
+    [ "sndpp::WAV", "df/dc5/classsndpp_1_1WAV.html", null ],
+    [ "sndpp::WAV::ChunkADTL::LABL", "da/d69/structsndpp_1_1WAV_1_1ChunkADTL_1_1LABL.html", null ],
+    [ "sndpp::WAV::ChunkADTL::LTXT", "de/d11/structsndpp_1_1WAV_1_1ChunkADTL_1_1LTXT.html", null ],
+    [ "sndpp::WAV::ChunkADTL::NOTE", "da/dd5/structsndpp_1_1WAV_1_1ChunkADTL_1_1NOTE.html", null ],
+    [ "sndpp::WAV::ChunkBase", "d7/d3d/structsndpp_1_1WAV_1_1ChunkBase.html", [
+      [ "sndpp::WAV::ChunkCSET", "d3/dd7/structsndpp_1_1WAV_1_1ChunkCSET.html", null ],
+      [ "sndpp::WAV::ChunkCUE", "d7/d40/structsndpp_1_1WAV_1_1ChunkCUE.html", null ],
+      [ "sndpp::WAV::ChunkDATA", "d2/d2f/structsndpp_1_1WAV_1_1ChunkDATA.html", null ],
+      [ "sndpp::WAV::ChunkFACT", "d9/d80/structsndpp_1_1WAV_1_1ChunkFACT.html", null ],
+      [ "sndpp::WAV::ChunkFLLR", "d6/d68/structsndpp_1_1WAV_1_1ChunkFLLR.html", null ],
+      [ "sndpp::WAV::ChunkFMT", "d6/d2c/structsndpp_1_1WAV_1_1ChunkFMT.html", null ],
+      [ "sndpp::WAV::ChunkINST", "d5/d9c/structsndpp_1_1WAV_1_1ChunkINST.html", null ],
+      [ "sndpp::WAV::ChunkJUNK", "d0/d02/structsndpp_1_1WAV_1_1ChunkJUNK.html", null ],
+      [ "sndpp::WAV::ChunkLIST", "d3/df5/structsndpp_1_1WAV_1_1ChunkLIST.html", [
+        [ "sndpp::WAV::ChunkADTL", "dc/ded/structsndpp_1_1WAV_1_1ChunkADTL.html", null ],
+        [ "sndpp::WAV::ChunkINFO", "d2/d68/structsndpp_1_1WAV_1_1ChunkINFO.html", null ]
+      ] ],
+      [ "sndpp::WAV::ChunkMD5", "d3/ded/structsndpp_1_1WAV_1_1ChunkMD5.html", null ],
+      [ "sndpp::WAV::ChunkPAD", "da/d95/structsndpp_1_1WAV_1_1ChunkPAD.html", null ],
+      [ "sndpp::WAV::ChunkPLST", "d3/d57/structsndpp_1_1WAV_1_1ChunkPLST.html", null ],
+      [ "sndpp::WAV::ChunkSMPL", "de/d9d/structsndpp_1_1WAV_1_1ChunkSMPL.html", null ],
+      [ "sndpp::WAV::ChunkUnknown", "d5/de5/structsndpp_1_1WAV_1_1ChunkUnknown.html", null ]
+    ] ],
+    [ "sndpp::WAV::ChunkCUE::CuePoint", "d2/dce/structsndpp_1_1WAV_1_1ChunkCUE_1_1CuePoint.html", null ],
+    [ "sndpp::WAV::ChunkINFO::META", "dc/d07/structsndpp_1_1WAV_1_1ChunkINFO_1_1META.html", null ],
+    [ "sndpp::WAV::ChunkPLST::Segment", "d9/df5/structsndpp_1_1WAV_1_1ChunkPLST_1_1Segment.html", null ],
+    [ "sndpp::WAV::ChunkSMPL::SampleLoop", "d7/dcc/structsndpp_1_1WAV_1_1ChunkSMPL_1_1SampleLoop.html", null ],
+    [ "sndpp::XWV", "d9/d12/classsndpp_1_1XWV.html", null ],
     [ "sourcepp::detail::member_type_helper< T >", "d9/de7/structsourcepp_1_1detail_1_1member__type__helper.html", null ],
     [ "sourcepp::detail::member_type_helper< T C::* >", "d1/de3/structsourcepp_1_1detail_1_1member__type__helper_3_01T_01C_1_1_5_01_4.html", null ],
     [ "sourcepp::math::Mat< M, N, P >", "d5/d89/classsourcepp_1_1math_1_1Mat.html", null ],
@@ -111,7 +146,13 @@ var hierarchy =
       [ "vpkpp::PAK", "d9/daf/classvpkpp_1_1PAK.html", null ],
       [ "vpkpp::PCK", "d5/db5/classvpkpp_1_1PCK.html", null ],
       [ "vpkpp::PackFileReadOnly", "de/df6/classvpkpp_1_1PackFileReadOnly.html", [
-        [ "vpkpp::GCF", "d1/d01/classvpkpp_1_1GCF.html", null ]
+        [ "vpkpp::GCF", "d1/d01/classvpkpp_1_1GCF.html", null ],
+        [ "vpkpp::HOG", "dd/d46/classvpkpp_1_1HOG.html", null ],
+        [ "vpkpp::OL", "d4/d47/classvpkpp_1_1OL.html", null ],
+        [ "vpkpp::OO7", "d3/dec/classvpkpp_1_1OO7.html", null ],
+        [ "vpkpp::ORE", "d8/d00/classvpkpp_1_1ORE.html", null ],
+        [ "vpkpp::VPP", "d6/d17/classvpkpp_1_1VPP.html", null ],
+        [ "vpkpp::XZP", "d8/ddc/classvpkpp_1_1XZP.html", null ]
       ] ],
       [ "vpkpp::VPK", "d5/d8b/classvpkpp_1_1VPK.html", [
         [ "vpkpp::FPX", "da/d42/classvpkpp_1_1FPX.html", null ]
@@ -119,7 +160,7 @@ var hierarchy =
       [ "vpkpp::VPK_VTMB", "d4/ddb/classvpkpp_1_1VPK__VTMB.html", null ],
       [ "vpkpp::WAD3", "d1/da5/classvpkpp_1_1WAD3.html", null ],
       [ "vpkpp::ZIP", "da/de7/classvpkpp_1_1ZIP.html", [
-        [ "vpkpp::BSP", "d2/da8/classvpkpp_1_1BSP.html", null ]
+        [ "bsppp::PakLump", "d4/daf/classbsppp_1_1PakLump.html", null ]
       ] ]
     ] ],
     [ "vpkpp::PCK::Header", "d5/da3/structvpkpp_1_1PCK_1_1Header.html", null ],
@@ -132,9 +173,7 @@ var hierarchy =
     [ "vtfpp::ImagePixel::ABGR8888", "d3/d83/structvtfpp_1_1ImagePixel_1_1ABGR8888.html", null ],
     [ "vtfpp::ImagePixel::ARGB8888", "d6/dd0/structvtfpp_1_1ImagePixel_1_1ARGB8888.html", null ],
     [ "vtfpp::ImagePixel::BGR565", "d9/d48/structvtfpp_1_1ImagePixel_1_1BGR565.html", null ],
-    [ "vtfpp::ImagePixel::BGR888", "d8/d63/structvtfpp_1_1ImagePixel_1_1BGR888.html", [
-      [ "vtfpp::ImagePixel::BGR888_BLUESCREEN", "d2/dd2/structvtfpp_1_1ImagePixel_1_1BGR888__BLUESCREEN.html", null ]
-    ] ],
+    [ "vtfpp::ImagePixel::BGR888", "d8/d63/structvtfpp_1_1ImagePixel_1_1BGR888.html", null ],
     [ "vtfpp::ImagePixel::BGRA1010102", "de/d7c/structvtfpp_1_1ImagePixel_1_1BGRA1010102.html", null ],
     [ "vtfpp::ImagePixel::BGRA4444", "d0/d1c/structvtfpp_1_1ImagePixel_1_1BGRA4444.html", null ],
     [ "vtfpp::ImagePixel::BGRA5551", "dd/d5e/structvtfpp_1_1ImagePixel_1_1BGRA5551.html", null ],
@@ -151,9 +190,7 @@ var hierarchy =
     [ "vtfpp::ImagePixel::RG3232F", "db/d93/structvtfpp_1_1ImagePixel_1_1RG3232F.html", null ],
     [ "vtfpp::ImagePixel::RGB323232F", "d0/d5b/structvtfpp_1_1ImagePixel_1_1RGB323232F.html", null ],
     [ "vtfpp::ImagePixel::RGB565", "d0/d92/structvtfpp_1_1ImagePixel_1_1RGB565.html", null ],
-    [ "vtfpp::ImagePixel::RGB888", "d0/d24/structvtfpp_1_1ImagePixel_1_1RGB888.html", [
-      [ "vtfpp::ImagePixel::RGB888_BLUESCREEN", "d1/d7e/structvtfpp_1_1ImagePixel_1_1RGB888__BLUESCREEN.html", null ]
-    ] ],
+    [ "vtfpp::ImagePixel::RGB888", "d0/d24/structvtfpp_1_1ImagePixel_1_1RGB888.html", null ],
     [ "vtfpp::ImagePixel::RGBA1010102", "d4/d5b/structvtfpp_1_1ImagePixel_1_1RGBA1010102.html", null ],
     [ "vtfpp::ImagePixel::RGBA16161616", "d9/d32/structvtfpp_1_1ImagePixel_1_1RGBA16161616.html", null ],
     [ "vtfpp::ImagePixel::RGBA16161616F", "d0/de9/structvtfpp_1_1ImagePixel_1_1RGBA16161616F.html", null ],
@@ -166,6 +203,11 @@ var hierarchy =
     [ "vtfpp::PPL", "df/d32/classvtfpp_1_1PPL.html", null ],
     [ "vtfpp::PPL::Image", "d1/dc9/structvtfpp_1_1PPL_1_1Image.html", null ],
     [ "vtfpp::Resource", "d3/d80/structvtfpp_1_1Resource.html", null ],
+    [ "vtfpp::SHT", "db/dde/classvtfpp_1_1SHT.html", null ],
+    [ "vtfpp::SHT::Sequence", "d3/d32/structvtfpp_1_1SHT_1_1Sequence.html", null ],
+    [ "vtfpp::SHT::Sequence::Frame", "d0/d5e/structvtfpp_1_1SHT_1_1Sequence_1_1Frame.html", null ],
+    [ "vtfpp::SHT::Sequence::Frame::Bounds", "db/d04/structvtfpp_1_1SHT_1_1Sequence_1_1Frame_1_1Bounds.html", null ],
+    [ "vtfpp::TTX", "df/d47/classvtfpp_1_1TTX.html", null ],
     [ "vtfpp::VTF", "d8/df2/classvtfpp_1_1VTF.html", null ],
     [ "vtfpp::VTF::CreationOptions", "d3/d2b/structvtfpp_1_1VTF_1_1CreationOptions.html", null ]
 ];
